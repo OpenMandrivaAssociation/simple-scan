@@ -1,5 +1,5 @@
 Name:           simple-scan
-Version:        0.9.9 
+Version:        1.0.2
 Release:        %mkrel 1
 Summary:        Simple scanning utility
 
@@ -43,7 +43,7 @@ desktop-file-install					\
 	--mode 0644					\
 	%{buildroot}%{_datadir}/applications/%{name}.desktop
 
-%find_lang %{name} --with-man --with-gnome 
+%find_lang %{name} --with-man --with-gnome
 
 %clean
 rm -rf %{buildroot}
