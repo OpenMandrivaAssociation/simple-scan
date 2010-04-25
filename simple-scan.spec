@@ -1,5 +1,5 @@
 Name:           simple-scan
-Version:        1.0.2
+Version:        1.0.3
 Release:        %mkrel 1
 Summary:        Simple scanning utility
 
@@ -13,7 +13,7 @@ BuildRequires: libGConf2-devel
 BuildRequires: gtk2-devel
 BuildRequires: libgudev-devel
 BuildRequires: sane-devel
-BuildRequires: gnome-doc-utils 
+BuildRequires: gnome-doc-utils
 
 Requires: gnome-icon-theme
 Requires: xdg-utils
@@ -27,7 +27,7 @@ Simple Scan is an easy-to-use application, designed to let users connect their
 scanner and quickly have the image/document in an appropriate format.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 
