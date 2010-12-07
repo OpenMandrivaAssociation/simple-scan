@@ -1,6 +1,6 @@
 Name:           simple-scan
 Version:        1.0.3
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Simple scanning utility
 
 Group:          Graphical desktop/GNOME
