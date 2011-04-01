@@ -1,12 +1,12 @@
 Name:           simple-scan
-Version:        1.0.3
-Release:        %mkrel 2
+Version:        2.32.0.1
+Release:        %mkrel 1
 Summary:        Simple scanning utility
 
 Group:          Graphical desktop/GNOME
 License:        GPLv3+
 URL:            https://launchpad.net/simple-scan
-Source0:        http://launchpad.net/simple-scan/trunk/%version/+download/simple-scan-%version.tar.gz
+Source0:        http://ftp.gnome.org/pub/gnome/sources/%{name}/%{version}/simple-scan-%version.tar.bz2
 
 BuildRequires: intltool
 BuildRequires: libGConf2-devel
@@ -18,9 +18,6 @@ BuildRequires: gnome-doc-utils
 Requires: gnome-icon-theme
 Requires: xdg-utils
 Requires: yelp
-Requires(pre): GConf2
-Requires(post): GConf2
-Requires(preun): GConf2
 
 %description
 Simple Scan is an easy-to-use application, designed to let users connect their
@@ -35,13 +32,8 @@ scanner and quickly have the image/document in an appropriate format.
 %make
 
 %install
-%makeinstall
-
-desktop-file-install					\
-	--remove-category Application			\
-	--dir %{buildroot}%{_datadir}/applications	\
-	--mode 0644					\
-	%{buildroot}%{_datadir}/applications/%{name}.desktop
+rm -fr %buildroot
+%makeinstall_std
 
 %find_lang %{name} --with-man --with-gnome
 
@@ -55,5 +47,4 @@ rm -rf %{buildroot}
 %{_sysconfdir}/gconf/schemas/%{name}.schemas
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
-%{_datadir}/%{name}/
-
+%{_datadir}/%{name}
