@@ -11,6 +11,7 @@ Source0:        http://ftp.gnome.org/pub/gnome/sources/%{name}/%{version}/simple
 BuildRequires: intltool
 BuildRequires: libGConf2-devel
 BuildRequires: gtk2-devel
+BuildRequires: jpeg-devel
 BuildRequires: libgudev-devel
 BuildRequires: sane-devel
 BuildRequires: gnome-doc-utils
