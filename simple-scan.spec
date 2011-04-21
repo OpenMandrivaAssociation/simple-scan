@@ -1,5 +1,5 @@
 Name:           simple-scan
-Version:        2.32.0.1
+Version:        2.32.0.2
 Release:        %mkrel 1
 Summary:        Simple scanning utility
 
