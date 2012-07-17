@@ -1,11 +1,11 @@
 Name:		simple-scan
-Version:	3.2.1
+Version:	3.4.2
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
 URL:		https://launchpad.net/simple-scan
-Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/%{version}/simple-scan-%version.tar.xz
+Source0:	https://launchpad.net/simple-scan/3.4/%{version}/+download/%{name}-%{version}.tar.gz
 
 BuildRequires: intltool
 BuildRequires: jpeg-devel
@@ -20,6 +20,7 @@ BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(gudev-1.0)
 BuildRequires: pkgconfig(mx-1.0)
 BuildRequires: pkgconfig(zlib)
+BuildRequires: itstool
 
 Requires: gnome-icon-theme
 Requires: xdg-utils
