@@ -1,6 +1,6 @@
 Name:		simple-scan
 Version:	3.4.2
-Release:	7
+Release:	8
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
