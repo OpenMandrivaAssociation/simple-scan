@@ -20,6 +20,7 @@ BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(gudev-1.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
+BuildRequires:	vala
 
 Requires: gnome-icon-theme
 Requires: xdg-utils
