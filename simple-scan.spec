@@ -1,5 +1,5 @@
 Name:		simple-scan
-Version:	3.15.4
+Version:	3.16.1.1
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
@@ -22,7 +22,7 @@ BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
 BuildRequires:	vala
 
-Requires: gnome-icon-theme
+Requires: adwaita-icon-theme
 Requires: xdg-utils
 Requires: yelp
 
