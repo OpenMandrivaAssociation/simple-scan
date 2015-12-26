@@ -1,6 +1,8 @@
+%define _disable_rebuild_configure 1
+
 Name:		simple-scan
-Version:	3.16.1.1
-Release:	3
+Version:	3.18.2
+Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
