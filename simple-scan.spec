@@ -20,6 +20,7 @@ BuildRequires: pkgconfig(gnome-doc-utils)
 BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(gudev-1.0)
+BuildRequires: pkgconfig(packagekit-glib2)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
 BuildRequires:	vala
