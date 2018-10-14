@@ -42,12 +42,11 @@ scanner and quickly have the image/document in an appropriate format.
 %setup -q
 
 %build
-%configure
-
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-man --with-gnome
 
