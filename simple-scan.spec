@@ -57,5 +57,5 @@ scanner and quickly have the image/document in an appropriate format.
 %{_datadir}/glib-2.0/schemas/org.gnome.SimpleScan.gschema.xml
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1.*
-%{_datadir}/appdata/simple-scan.appdata.xml
+%{_datadir}/metainfo/%{name}.appdata.xml
 
