@@ -1,13 +1,14 @@
 %define _disable_rebuild_configure 1
+%define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		simple-scan
-Version:	3.18.2
+Version:	3.30.1.1
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
 URL:		https://launchpad.net/simple-scan
-Source0:	https://launchpad.net/simple-scan/3.15/%{version}/+download/%{name}-%{version}.tar.xz
+Source0:	hhttp://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires: intltool
 BuildRequires: jpeg-devel
@@ -24,6 +25,10 @@ BuildRequires: pkgconfig(packagekit-glib2)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
 BuildRequires:	vala
+BuildRequires:		pkgconfig(libjpeg)
+BuildRequires:		pkgconfig(sane-backends)
+BuildRequires:		meson
+BuildRequires:		libxml2-utils
 
 Requires: adwaita-icon-theme
 Requires: xdg-utils
