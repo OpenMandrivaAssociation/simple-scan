@@ -2,8 +2,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		simple-scan
-Version:	3.30.2
-Release:	2
+Version:	3.32.2
+Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
@@ -55,7 +55,8 @@ scanner and quickly have the image/document in an appropriate format.
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.SimpleScan.gschema.xml
-%{_datadir}/%{name}
+#{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1.*
 %{_datadir}/metainfo/%{name}.appdata.xml
+%{_iconsdir}/hicolor/*/apps/org.gnome.SimpleScan*.svg
 
