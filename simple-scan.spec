@@ -2,13 +2,13 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		simple-scan
-Version:	3.36.6
+Version:	3.38.0
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
 URL:		https://launchpad.net/simple-scan
-Source0:	hhttp://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	http://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires: intltool
 BuildRequires: jpeg-devel
