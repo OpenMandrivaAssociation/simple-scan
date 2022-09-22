@@ -3,7 +3,7 @@
 
 Name:		simple-scan
 Version:	42.1
-Release:	2
+Release:	3
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
@@ -25,15 +25,16 @@ BuildRequires: pkgconfig(libhandy-1)
 BuildRequires: pkgconfig(packagekit-glib2)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
-BuildRequires:	vala
-BuildRequires:		pkgconfig(libjpeg)
-BuildRequires:		pkgconfig(sane-backends)
-BuildRequires:		meson
-BuildRequires:		libxml2-utils
+BuildRequires: vala
+BuildRequires: pkgconfig(libjpeg)
+BuildRequires: pkgconfig(sane-backends)
+BuildRequires: meson
+BuildRequires: libxml2-utils
 
 Requires: adwaita-icon-theme
 Requires: xdg-utils
 Requires: yelp
+Requires: sane
 
 %description
 Simple Scan is an easy-to-use application, designed to let users connect their
