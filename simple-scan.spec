@@ -2,8 +2,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		simple-scan
-Version:	42.1
-Release:	5
+Version:	42.5
+Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
