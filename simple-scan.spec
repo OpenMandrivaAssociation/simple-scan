@@ -2,7 +2,7 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		simple-scan
-Version:	42.5
+Version:	44.0
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
@@ -19,9 +19,13 @@ BuildRequires: pkgconfig(gdk-pixbuf-2.0)
 BuildRequires: pkgconfig(gmodule-export-2.0)
 BuildRequires: pkgconfig(gnome-doc-utils)
 BuildRequires: pkgconfig(gthread-2.0)
-BuildRequires: pkgconfig(gtk+-3.0)
+BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(gudev-1.0)
+BuildRequires: pkgconfig(gusb)
+BuildRequires: pkgconfig(libadwaita-1)
 BuildRequires: pkgconfig(libhandy-1)
+BuildRequires: pkgconfig(libwebpmux)
+BuildRequires: pkgconfig(libwebp)
 BuildRequires: pkgconfig(packagekit-glib2)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: itstool
