@@ -5,7 +5,7 @@
 
 Name:		simple-scan
 Version:	44.0
-Release:	2
+Release:	3
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
@@ -41,6 +41,7 @@ Requires: adwaita-icon-theme
 Requires: xdg-utils
 Requires: yelp
 Requires: sane
+Requires: saned
 
 %description
 Simple Scan is an easy-to-use application, designed to let users connect their
