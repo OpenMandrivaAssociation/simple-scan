@@ -5,12 +5,12 @@
 
 Name:		simple-scan
 Version:	44.0
-Release:	4
+Release:	5
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
 URL:		https://launchpad.net/simple-scan
-Source0:	http://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	https://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires: intltool
 BuildRequires: jpeg-devel
