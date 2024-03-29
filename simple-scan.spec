@@ -67,6 +67,6 @@ scanner and quickly have the image/document in an appropriate format.
 %{_datadir}/glib-2.0/schemas/org.gnome.SimpleScan.gschema.xml
 #{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1.*
-#{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.SimpleScan.appdata.xml
 %{_iconsdir}/hicolor/*/apps/org.gnome.SimpleScan*.svg
 
