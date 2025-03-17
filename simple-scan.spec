@@ -5,7 +5,7 @@
 
 Name:		simple-scan
 Version:	46.0
-Release:	3
+Release:	4
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
