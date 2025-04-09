@@ -4,13 +4,14 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		simple-scan
-Version:	46.0
-Release:	4
+Version:	48.1
+Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
 URL:		https://launchpad.net/simple-scan
-Source0:	https://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
+#Source0:	https://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:  https://gitlab.gnome.org/GNOME/simple-scan/-/archive/%{version}/simple-scan-%{version}.tar.bz2
 
 BuildRequires: intltool
 BuildRequires: jpeg-devel
@@ -50,7 +51,7 @@ Simple Scan is an easy-to-use application, designed to let users connect their
 scanner and quickly have the image/document in an appropriate format.
 
 %prep
-%setup -q
+%autosetup -1
 
 %build
 %meson
