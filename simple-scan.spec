@@ -51,7 +51,7 @@ Simple Scan is an easy-to-use application, designed to let users connect their
 scanner and quickly have the image/document in an appropriate format.
 
 %prep
-%autosetup -1
+%autosetup -p1
 
 %build
 %meson
