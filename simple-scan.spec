@@ -65,10 +65,10 @@ scanner and quickly have the image/document in an appropriate format.
 %files -f %{name}.lang 
 %doc COPYING NEWS README.md
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.gnome.SimpleScan.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.SimpleScan.gschema.xml
 #{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1.*
-%{_datadir}/metainfo/org.gnome.SimpleScan.appdata.xml
+%{_datadir}/metainfo/org.gnome.SimpleScan.metainfo.xml
 %{_iconsdir}/hicolor/*/apps/org.gnome.SimpleScan*.svg
 
