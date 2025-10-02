@@ -4,7 +4,7 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		simple-scan
-Version:	49.0
+Version:	49.0.1
 Release:	1
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
