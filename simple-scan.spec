@@ -5,7 +5,7 @@
 
 Name:		simple-scan
 Version:	49.1
-Release:	1
+Release:	2
 Summary:	Simple scanning utility
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
@@ -36,7 +36,7 @@ BuildRequires: vala
 BuildRequires: pkgconfig(libjpeg)
 BuildRequires: pkgconfig(sane-backends)
 BuildRequires: meson
-BuildRequires: libxml2-utils
+BuildRequires: libxml2-utils >= 2.15.2
 
 Provides:	scanner-gui
 Requires: adwaita-icon-theme
